@@ -1,5 +1,5 @@
 {
-  "name": "tree-folder",
+  "name": "folder-md",
   "version": "1.0.0",
   "description": "A tool to generate folder tree structure as ASCII art in a new file FOLDER.md",
   "main": "dist/index.js",
@@ -19,9 +19,13 @@
     "folder tree",
     "ascii art",
     "directory structure",
-    "file system"
+    "file system",
+    "markdown",
+    "cli tool",
+    "folder md",
+    "tree-folder"
   ],
-  "author": "",
+  "author": "Thanh tran <trantienthanh2412@gmail.com>",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
