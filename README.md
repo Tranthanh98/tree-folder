@@ -33,8 +33,19 @@ tree-folder --ignore ".cache" --ignore "tmp"
 ## Options
 
 - `-f, --files`: Include all files in the tree (default: only shows README.md, package.json, LICENSE, tsconfig.json, .gitignore)
-- `-log, --log`: Print the tree structure to console in addition to saving to file
+- `-log, --log`: Print the tree structure to console in addition to saving to file (with colored output!)
 - `--ignore <pattern>`: Add custom ignore patterns (in addition to default ignores)
+
+## Colored Output 🎨
+
+When using `-log` option, the output is colorized in the terminal:
+
+- 📁 **Folders**: Bold Blue
+- 📄 `.ts/.tsx` files: Cyan
+- 📄 `.js/.jsx` files: Yellow
+- 📄 `.json` files: Green
+- 📄 `.md` files: Magenta
+- 📄 Config files (`.gitignore`, etc): Gray
 
 ## Default Ignored Folders
 
