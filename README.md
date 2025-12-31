@@ -1,4 +1,4 @@
-# tree-folder
+# folder-md
 
 A CLI tool to generate folder tree structure as ASCII art in a new file `FOLDER.md`.
 
@@ -7,10 +7,10 @@ A CLI tool to generate folder tree structure as ASCII art in a new file `FOLDER.
 No installation required! Just run:
 
 ```bash
-npx tree-folder
-# or
 npx folder-md
 ```
+
+> 💡 You can also use `npx tree-folder` as an alias.
 
 ## Installation (Optional)
 
@@ -21,8 +21,6 @@ npm install -g folder-md
 Then use:
 
 ```bash
-tree-folder
-# or
 folder-md
 ```
 
@@ -30,22 +28,22 @@ folder-md
 
 ```bash
 # Generate folder tree in current directory
-npx tree-folder
+npx folder-md
 
 # Generate folder tree with all files included
-npx tree-folder -f
+npx folder-md -f
 
 # Generate folder tree and log to console (with colors!)
-npx tree-folder -log
+npx folder-md -log
 
 # Generate folder tree for a specific path
-npx tree-folder /path/to/directory
+npx folder-md /path/to/directory
 
 # Combine options
-npx tree-folder -f -log
+npx folder-md -f -log
 
 # Ignore custom patterns
-npx tree-folder --ignore ".cache" --ignore "tmp"
+npx folder-md --ignore ".cache" --ignore "tmp"
 ```
 
 ## Options
